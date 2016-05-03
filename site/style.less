@@ -1,0 +1,689 @@
+/*-------------------------------------------------------------------------
+ * Autor: German Mendoza
+ * correo: german.mendoza.187@gmail.com
+ * Fecha de publicación: 14/01/2015
+ * Version: 1.0
+ * Copyright: German Mendoza, en caso de distribución colocar mis referencias
+ * Descripcion: Colores para la página
+ *
+ *   DEPENDENCIAS
+ *  - bootstrap.css
+ *  - colors.less
+ *
+ *-------------------------------------------------------------------------*/
+@import './less/color.less';
+@import './less/mixins.less';
+
+/*{
+    font-family: 'Helvetica';
+}*/
+
+.no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.no-border{
+    border-left: 0px !important;
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+}
+
+.border-right{
+    border-right: 1px solid;
+    border-color: @gray-font;
+}
+
+.cpal-nav-bar{
+    background: @white-bg;
+
+        .navbar-header{
+            .navbar-brand{
+
+                padding: 0px;
+                img{
+                   height: 100px;
+                   //float: right;
+                }
+            }
+        }
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: @gray-font;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: @gray-font;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+    color: @gray-font;
+    background-color: transparent;
+}
+
+.cpal-navbar-global{
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    border: 0px solid;
+    box-shadow: none !important;
+    background: @white-bg;
+}
+
+.cpal-titles{
+    h1{
+        font-family: 'Bebas Neue Regular', sans-serif;
+        text-align: center;
+        font-size: 40px;
+        //letter-spacing: 1px;
+        padding-bottom: 0px;
+        padding-top: 40px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        //border-bottom: 1px solid;
+        //border-color: @white-font;
+
+    }
+}
+
+.cpal-images {
+    img {
+        width: 90%;
+    }
+}
+
+.cpal-text {
+
+    p {
+        font-family: 'Helvetica', sans-serif;
+        font-size: 15px;
+        color: @gray-light-font;
+    }
+
+    h2 {
+        margin-top: 70px;
+        margin-bottom: 40px;
+        color: @green-font;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
+.cpal-cnt-gray{
+    padding-bottom: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: @gray-cnt-bg;
+}
+
+.cpal-card-min-text {
+    p{
+        font-size: 11px !important;
+    }
+}
+
+.cpal-card {
+
+    background-color: @white-bg;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 160px;
+    .box-shadow(2px 2px 10px #888888);
+
+    h3{
+        font-family: 'Helvetica', sans-serif;
+        color: @green-font;
+        font-size: 30px;
+    }
+
+    p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: 'Helvetica', sans-serif;
+        font-size: 13px;
+        color: @gray-light-font;
+    }
+}
+
+.cpal-navbar-right {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.cpal-div-center{
+
+    margin: auto;
+    width: 80px;
+    border: 2px solid;
+    border-color: @orange-menu;
+    height: 1px;
+    background-color: @orange-menu;
+    margin-bottom: 50px;
+}
+
+.cpal-menu-bar{
+
+    li{
+        padding-left: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 20px;
+        border-bottom: 1px solid;
+        border-color: @gray-font;
+
+        a{
+            font-family: 'Helvetica', sans-serif;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-bottom: 5px;
+            background: transparent;
+            font-size: 15px;
+            font-weight: bold;
+            color: @gray-font;
+            letter-spacing: 1px;
+        }
+
+
+        .dropdown-menu{
+            border: 0px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            margin-top: 2px;
+            min-width: 148px;
+
+
+            li{
+                margin-top: 0px;
+                margin-bottom: 0px;
+                padding-top: 0px;
+                padding-right: 0px;
+                padding-left: 0px;
+                //width: 300px;
+                //line-height: 4;
+
+
+                a{
+                    padding-top: 10px;
+                    text-align: center;
+                    max-width: 160px;
+
+                }
+
+                a:hover {
+                    background-color: transparent !important;
+                    background: transparent;
+                }
+            }
+        }
+    }
+
+    li:hover {
+        border-bottom: 2px solid !important;
+        border-color: @orange-menu !important;
+    }
+
+    .select{
+        background-color: transparent;
+
+        border-bottom: 2px solid;
+        border-color: @orange-menu;
+
+        :hover {
+
+            border-color: @white-font;
+            color: @gray-font;
+
+        }
+
+    }
+
+    .logo{
+        border-bottom: 0px solid !important;
+
+        img{
+            height: 100px;
+        }
+
+
+    }
+
+    .logo:hover {
+        border-bottom: 0px solid !important;
+
+    }
+
+
+    li.open{
+        background: transparent;
+        background-color: transparent;
+        border-bottom: 2px solid;
+        border-color: @orange-menu;
+
+        a.dropdown-toggle{
+            background: transparent;
+            .box-shadow(none);
+        }
+
+        a.dropdown-toggle:hover{
+            text-decoration: none !important;
+        }
+    }
+
+}
+
+.cpal-tabs {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    .nav-tabs{
+        border-bottom: 0px solid;
+        a {
+            background-color: #eee;
+            text-align: center;
+            color: @gray-font;
+            font-weight: bold;
+        }
+
+        a:hover{
+            background-color: @orange-menu;
+            color: @white-font;
+        }
+
+        li.active{
+            a{
+                background-color: @orange-menu;
+                color: @white-font;
+            }
+        }
+    }
+
+}
+
+.cpal-form {
+
+    padding-top: 30px;
+    padding-left: 18px;
+    padding-right: 18px;
+
+    label {
+        font-weight: normal;
+    }
+    .cpal-form-group {
+        margin-top: 20px;
+    }
+
+    .cpal-submit{
+        background-color: @orange-menu;
+        color: @white-font;
+        text-transform: uppercase;
+    }
+}
+
+
+
+
+
+
+
+.cpal-footer{
+    margin-top: 50px;
+    text-align: center;
+    background-color: @footer-bg;
+
+    p{
+        margin-top: 10px;
+        color: @white-font;
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width: 767px){
+
+    .gym-nav-bar{
+        .container{
+            .navbar-header{
+                .navbar-brand{
+
+                    img{
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .gym-button{
+
+
+        input{
+            width: 200px;
+            text-align: left;
+        }
+    }
+
+    .gym-titles{
+        h1{
+
+            font-size: 10px;
+            letter-spacing: 1px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+    }
+
+    .gym-arrow-down {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #f00;
+    }
+
+    .gym-menu-bar{
+        margin-left: 0px;
+        li{
+            padding-left: 0px;
+
+            .dropdown-menu{
+
+
+                li{
+
+                    width: 100%;
+                    list-style-type: none;
+
+                    a:hover{
+                        list-style-type: none;
+
+                    }
+
+                }
+            }
+        }
+
+        li.open{
+            margin-left: -15px;
+            padding-left: 15px;
+            height: auto;
+
+
+            a:focus{
+                boder: 0px solid !important;
+            }
+
+            ul{
+                position: absolute !important;
+                background: @white-font !important;
+            }
+
+            .dropdown-menu{
+                width: 100%;
+            }
+        }
+
+    }
+
+    .losange, .losange div {
+        border: 2px solid;
+        border-color: @yellow-brand;
+        float: left;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        margin-left: 2px;
+        transform-origin: 50% 50%;
+        width: 30px;
+        height: 30px;
+    }
+    .losange {
+      transform: rotate(45deg) translateY(10px);
+    }
+    .losange .los1 {
+      width: 40px;
+      height: 40px;
+      transform: rotate(-45deg) translateY(-15px) translateX(2px);
+    }
+
+
+    .gym-header-session{
+
+        .gym-prof-link {
+            float: left;
+            margin-top: 15px;
+            margin-left: 5px;
+            font-size: 12px;
+
+            div{
+                width: 90px;
+            }
+
+            img{
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+
+        }
+
+         label{
+            margin-top: 0px;
+            margin-left: 36px;
+            letter-spacing: 0px;
+            font-size: 12px;
+        }
+
+        .gym-num-sesion-cnt{
+
+            .gym-num-sesion{
+                width: 40px;
+                height: 40px;
+                margin-top: 10px;
+                a{
+                    font-size: 12px;
+                }
+            }
+
+            label{
+
+                padding-right: 0px;
+                border-right: 0px solid;
+                margin-left: 5px;
+                font-size: 9px;
+                margin-top: 15px;
+            }
+
+            span{
+                font-size: 10px;
+            }
+        }
+
+        .gym-cnt-btn-head{
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+    }
+
+    .gym-corouse{
+        min-height: auto;
+
+        #carousel-example-generic{
+            padding-top: 138px;
+        }
+
+        .carousel-control{
+            background: black;
+            height: 90px;
+            width: 50px;
+            margin-top: 0px;
+        }
+
+    }
+
+    .gym-benefits{
+
+        .gym-benefits-text{
+            border-right: 0px solid;
+            height: 230px;
+            img{
+                margin-top: 10px;
+                width: 50px;
+            }
+
+            .gym-ben-promo{
+                margin-top: 10px;
+                letter-spacing: 1;
+                font-weight: lighter;
+                font-size: 14px;
+            }
+
+            .gym-ben-exp{
+                font-size: 12px;
+                font-weight: lighter;
+                margin-top: 0px;
+                padding-bottom: 15px;
+
+            }
+        }
+    }
+
+    .gym-plans{
+        margin-top: 0px;
+
+        .gym-plan-cnt{
+
+
+
+            .gym-plan-title{
+
+                h2{
+
+                    font-size: 12px;
+                }
+
+            }
+        }
+
+
+
+        .gym-plan-3{
+
+            p{
+                margin-bottom: 20px;
+            }
+
+        }
+
+        .gym-plan-fot{
+            p{
+
+                margin-top: 20px;
+                margin-left: 20px;
+
+            }
+
+        }
+
+
+    }
+
+    .gym-networks{
+
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+        .gym-networks-link{
+
+            .gym-link-cnt{
+                margin-left: 0px;
+
+
+                a{
+                    color: @yellow-brand;
+                    font-size: 11px;
+
+                    img{
+                        margin-left: 15px;
+                        width: 50px;
+                        display: block;
+                    }
+                }
+
+            }
+
+
+        }
+    }
+
+    .gym-headquarters{
+
+        .gym-hq-cnt{
+
+            margin-top: 2px;
+
+            .gym-cover{
+                bottom:0px;
+
+                .gym-icon-sede{
+                    margin-top: 20%;
+                }
+            }
+        }
+    }
+
+    .gym-galery{
+        margin-top: 0px;
+
+
+
+        .gym-filters{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 12px;
+            line-height: 3;
+
+            a{
+
+                margin-right: 12px;
+                margin-left: 14px;
+            }
+        }
+
+        .gym-galery-images{
+            img{
+                width: 100%;
+            }
+
+        }
+    }
+
+    .gym-footer{
+        margin-top: 0px;
+        padding-bottom: 50px;
+
+        .gym-footer-r{
+            margin-top: 20px;
+            padding-left: 20px;
+
+
+            h3{
+                margin-left: 10px;
+            }
+
+
+        }
+
+        .gym-footer-l{
+            margin-top: 0px;
+            min-height: 300px;
+
+            h3{
+                margin-right: 0px;
+            }
+
+        }
+    }
+
+}
