@@ -38,7 +38,7 @@
   border-color: #484848;
 }
 .cpal-nav-bar {
-  background: white;
+  background: #ffffff;
 }
 .cpal-nav-bar .navbar-header .navbar-brand {
   padding: 0px;
@@ -66,7 +66,7 @@
   border-bottom: 0px;
   border: 0px solid;
   box-shadow: none !important;
-  background: white;
+  background: #ffffff;
 }
 .cpal-titles h1 {
   font-family: 'Bebas Neue Regular', sans-serif;
@@ -102,7 +102,7 @@
   font-size: 11px !important;
 }
 .cpal-card {
-  background-color: white;
+  background-color: #ffffff;
   margin-right: 15px;
   margin-bottom: 15px;
   height: 160px;
@@ -194,7 +194,7 @@
   border-color: #e44a20;
 }
 .cpal-menu-bar .select :hover {
-  border-color: white;
+  border-color: #ffffff;
   color: #484848;
 }
 .cpal-menu-bar .logo {
@@ -239,11 +239,11 @@
 }
 .cpal-tabs .nav-tabs a:hover {
   background-color: #e44a20;
-  color: white;
+  color: #ffffff;
 }
 .cpal-tabs .nav-tabs li.active a {
   background-color: #e44a20;
-  color: white;
+  color: #ffffff;
 }
 .cpal-form {
   padding-top: 30px;
@@ -258,7 +258,7 @@
 }
 .cpal-form .cpal-submit {
   background-color: #e44a20;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
 }
 .cpal-footer {
@@ -268,7 +268,7 @@
 }
 .cpal-footer p {
   margin-top: 10px;
-  color: white;
+  color: #ffffff;
   font-size: 13px;
 }
 @media (max-width: 767px) {
@@ -301,7 +301,7 @@
   }
   .cpal-menu-bar li.open ul {
     position: absolute !important;
-    background: white !important;
+    background: #ffffff !important;
   }
   .cpal-menu-bar li.open .dropdown-menu {
     width: 100%;
