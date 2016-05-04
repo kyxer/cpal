@@ -38,7 +38,7 @@
   border-color: #484848;
 }
 .cpal-nav-bar {
-  background: #ffffff;
+  background: white;
 }
 .cpal-nav-bar .navbar-header .navbar-brand {
   padding: 0px;
@@ -66,7 +66,7 @@
   border-bottom: 0px;
   border: 0px solid;
   box-shadow: none !important;
-  background: #ffffff;
+  background: white;
 }
 .cpal-titles h1 {
   font-family: 'Bebas Neue Regular', sans-serif;
@@ -93,16 +93,16 @@
   text-transform: uppercase;
 }
 .cpal-cnt-gray {
-  padding-bottom: 60px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   background-color: #f7f5f5;
 }
 .cpal-card-min-text p {
   font-size: 11px !important;
 }
 .cpal-card {
-  background-color: #ffffff;
+  background-color: white;
   margin-right: 15px;
   margin-bottom: 15px;
   height: 160px;
@@ -141,6 +141,9 @@
   margin: auto;
   left: 0;
   right: 0;
+}
+.container-logo img {
+  height: 100px;
 }
 .cpal-menu-bar li {
   padding: 5px 7px;
@@ -191,7 +194,7 @@
   border-color: #e44a20;
 }
 .cpal-menu-bar .select :hover {
-  border-color: #ffffff;
+  border-color: white;
   color: #484848;
 }
 .cpal-menu-bar .logo {
@@ -236,11 +239,11 @@
 }
 .cpal-tabs .nav-tabs a:hover {
   background-color: #e44a20;
-  color: #ffffff;
+  color: white;
 }
 .cpal-tabs .nav-tabs li.active a {
   background-color: #e44a20;
-  color: #ffffff;
+  color: white;
 }
 .cpal-form {
   padding-top: 30px;
@@ -255,7 +258,7 @@
 }
 .cpal-form .cpal-submit {
   background-color: #e44a20;
-  color: #ffffff;
+  color: white;
   text-transform: uppercase;
 }
 .cpal-footer {
@@ -265,222 +268,72 @@
 }
 .cpal-footer p {
   margin-top: 10px;
-  color: #ffffff;
+  color: white;
   font-size: 13px;
 }
 @media (max-width: 767px) {
-  .gym-nav-bar .container .navbar-header .navbar-brand img {
-    height: 100%;
+  .container-logo img {
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
   }
-  .gym-button input {
-    width: 200px;
-    text-align: left;
-  }
-  .gym-titles h1 {
-    font-size: 10px;
-    letter-spacing: 1px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-  }
-  .gym-arrow-down {
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #f00;
-  }
-  .gym-menu-bar {
-    margin-left: 0px;
-  }
-  .gym-menu-bar li {
+  .cpal-navbar-right {
     padding-left: 0px;
   }
-  .gym-menu-bar li .dropdown-menu li {
-    width: 100%;
-    list-style-type: none;
-  }
-  .gym-menu-bar li .dropdown-menu li a:hover {
-    list-style-type: none;
-  }
-  .gym-menu-bar li.open {
-    margin-left: -15px;
-    padding-left: 15px;
-    height: auto;
-  }
-  .gym-menu-bar li.open a:focus {
-    boder: 0px solid !important;
-  }
-  .gym-menu-bar li.open ul {
-    position: absolute !important;
-    background: #ffffff !important;
-  }
-  .gym-menu-bar li.open .dropdown-menu {
-    width: 100%;
-  }
-  .losange,
-  .losange div {
-    border: 2px solid;
-    border-color: #ffe900;
-    float: left;
-    margin-top: 5px;
-    margin-bottom: 2px;
-    margin-left: 2px;
-    transform-origin: 50% 50%;
-    width: 30px;
-    height: 30px;
-  }
-  .losange {
-    transform: rotate(45deg) translateY(10px);
-  }
-  .losange .los1 {
-    width: 40px;
-    height: 40px;
-    transform: rotate(-45deg) translateY(-15px) translateX(2px);
-  }
-  .gym-header-session .gym-prof-link {
-    float: left;
-    margin-top: 15px;
-    margin-left: 5px;
-    font-size: 12px;
-  }
-  .gym-header-session .gym-prof-link div {
-    width: 90px;
-  }
-  .gym-header-session .gym-prof-link img {
-    margin-top: 0px;
+  .cpal-menu-bar {
     margin-left: 0px;
   }
-  .gym-header-session label {
-    margin-top: 0px;
-    margin-left: 36px;
-    letter-spacing: 0px;
-    font-size: 12px;
-  }
-  .gym-header-session .gym-num-sesion-cnt .gym-num-sesion {
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
-  }
-  .gym-header-session .gym-num-sesion-cnt .gym-num-sesion a {
-    font-size: 12px;
-  }
-  .gym-header-session .gym-num-sesion-cnt label {
-    padding-right: 0px;
-    border-right: 0px solid;
-    margin-left: 5px;
-    font-size: 9px;
-    margin-top: 15px;
-  }
-  .gym-header-session .gym-num-sesion-cnt span {
-    font-size: 10px;
-  }
-  .gym-header-session .gym-cnt-btn-head {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .gym-corouse {
-    min-height: auto;
-  }
-  .gym-corouse #carousel-example-generic {
-    padding-top: 138px;
-  }
-  .gym-corouse .carousel-control {
-    background: black;
-    height: 90px;
-    width: 50px;
-    margin-top: 0px;
-  }
-  .gym-benefits .gym-benefits-text {
-    border-right: 0px solid;
-    height: 230px;
-  }
-  .gym-benefits .gym-benefits-text img {
-    margin-top: 10px;
-    width: 50px;
-  }
-  .gym-benefits .gym-benefits-text .gym-ben-promo {
-    margin-top: 10px;
-    letter-spacing: 1;
-    font-weight: lighter;
-    font-size: 14px;
-  }
-  .gym-benefits .gym-benefits-text .gym-ben-exp {
-    font-size: 12px;
-    font-weight: lighter;
-    margin-top: 0px;
-    padding-bottom: 15px;
-  }
-  .gym-plans {
-    margin-top: 0px;
-  }
-  .gym-plans .gym-plan-cnt .gym-plan-title h2 {
-    font-size: 12px;
-  }
-  .gym-plans .gym-plan-3 p {
-    margin-bottom: 20px;
-  }
-  .gym-plans .gym-plan-fot p {
-    margin-top: 20px;
-    margin-left: 20px;
-  }
-  .gym-networks {
-    padding-bottom: 20px;
-    padding-top: 20px;
-  }
-  .gym-networks .gym-networks-link .gym-link-cnt {
-    margin-left: 0px;
-  }
-  .gym-networks .gym-networks-link .gym-link-cnt a {
-    color: #ffe900;
-    font-size: 11px;
-  }
-  .gym-networks .gym-networks-link .gym-link-cnt a img {
-    margin-left: 15px;
-    width: 50px;
-    display: block;
-  }
-  .gym-headquarters .gym-hq-cnt {
-    margin-top: 2px;
-  }
-  .gym-headquarters .gym-hq-cnt .gym-cover {
-    bottom: 0px;
-  }
-  .gym-headquarters .gym-hq-cnt .gym-cover .gym-icon-sede {
-    margin-top: 20%;
-  }
-  .gym-galery {
-    margin-top: 0px;
-  }
-  .gym-galery .gym-filters {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 12px;
-    line-height: 3;
-  }
-  .gym-galery .gym-filters a {
-    margin-right: 12px;
-    margin-left: 14px;
-  }
-  .gym-galery .gym-galery-images img {
-    width: 100%;
-  }
-  .gym-footer {
-    margin-top: 0px;
-    padding-bottom: 50px;
-  }
-  .gym-footer .gym-footer-r {
-    margin-top: 20px;
+  .cpal-menu-bar li {
     padding-left: 20px;
   }
-  .gym-footer .gym-footer-r h3 {
-    margin-left: 10px;
+  .cpal-menu-bar li .dropdown-menu li {
+    width: 100%;
+    list-style-type: none;
   }
-  .gym-footer .gym-footer-l {
-    margin-top: 0px;
-    min-height: 300px;
+  .cpal-menu-bar li .dropdown-menu li a:hover {
+    list-style-type: none;
   }
-  .gym-footer .gym-footer-l h3 {
-    margin-right: 0px;
+  .cpal-menu-bar li.open {
+    height: auto;
+  }
+  .cpal-menu-bar li.open a:focus {
+    boder: 0px solid !important;
+  }
+  .cpal-menu-bar li.open ul {
+    position: absolute !important;
+    background: white !important;
+  }
+  .cpal-menu-bar li.open .dropdown-menu {
+    width: 100%;
+  }
+  .cpal-images img {
+    width: 100%;
+  }
+  .cpal-div-center {
+    margin-bottom: 20px;
+  }
+  .cpal-text {
+    margin-top: 20px;
+  }
+  .cpal-text h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .cpal-cnt-gray {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .cpal-tabs {
+    margin-bottom: 20px;
+  }
+  .cpal-card {
+    height: auto;
+    margin-left: 12px;
+  }
+  .cpal-card h3 {
+    text-align: center;
+  }
+  .cpal-card-min-text p {
+    font-size: 13px !important;
   }
 }
