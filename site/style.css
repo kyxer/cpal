@@ -340,7 +340,16 @@
     font-size: 13px !important;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 1200px) {
+  .cpal-card {
+    margin-right: 15px;
+    margin-left: 18px;
+  }
+  .cpal-card p {
+    font-size: 13px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
   .cpal-card {
     margin-right: 15px;
     margin-left: 18px;
